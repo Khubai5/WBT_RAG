@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "source_index": "data/source_links.md",
+  "notes": [
+    "The source index is discovery input, not evidence for business claims.",
+    "These entries authorize only the initial source scope; no content has been fetched by creating this file.",
+    "First-party origin does not establish company approval, current validity, or an effective date.",
+    "Unspecified region does not mean that offers or terms apply globally."
+  ],
+  "web_ingestion": {
+    "robots_url": "https://webuildtrades.com/robots.txt",
+    "respect_robots": true,
+    "follow_discovered_links": false,
+    "notes": "Robots instructions govern access; they are not an answer source. Do not expand this allowlist via sitemaps or page links."
+  },
+  "sources": [
+    {
+      "source_id": "tbs-overview",
+      "source_title": "Trade Business School (TBS) - The Complete, Detailed Explanation",
+      "source_type": "pdf",
+      "path": "data/source_docs/TRADE BUSINESS SCHOOL (TBS).pdf",
+      "origin": "WBT-provided",
+      "region": "unspecified",
+      "status": "unverified",
+      "prepared_date": null,
+      "effective_date": null,
+      "retrieved_at": null,
+      "extraction_mode": "layout",
+      "confidence_note": "WBT-provided description of TBS positioning, curriculum, and relationship to WBT. The document does not establish an effective date or that every detail remains current. Keep its education role distinct from WBT execution services.",
+      "exclude_content": []
+    },
+    {
+      "source_id": "wbt-content-strategy",
+      "source_title": "WBT Social Media & Content Strategy",
+      "source_type": "pdf",
+      "path": "data/source_docs/WBT Content Strategy.pdf",
+      "origin": "WBT-provided",
+      "region": "unspecified",
+      "status": "unverified",
+      "source_date_label": "October 2025 Onwards",
+      "prepared_date": null,
+      "effective_date": null,
+      "retrieved_at": null,
+      "extraction_mode": "layout",
+      "confidence_note": "Document labelled October 2025 Onwards; current validity and approval are unconfirmed. Page 5 refers to $297, conflicting with the seed's historical GBP 297 reference. Page 2 suggests before/after stories and mini case studies, whereas the seed records their removal from a story plan. Preserve both accounts without assuming precedence. Example revenue claims and the 80/20/10 guidance are source statements, not verified results or a normalized allocation.",
+      "exclude_content": []
+    },
+    {
+      "source_id": "wbt-heating-47-offer",
+      "source_title": "£47 Heating Funnel Offer - Overview and Video Script",
+      "source_type": "pdf",
+      "path": "data/source_docs/WBT_47_Heating_Offer_Overview_and_Script.pdf",
+      "origin": "WBT-provided",
+      "region": "unspecified",
+      "status": "unverified",
+      "prepared_date": null,
+      "effective_date": null,
+      "retrieved_at": null,
+      "extraction_mode": "plain",
+      "confidence_note": "WBT-provided offer overview and sales-video transcript. It states a £47 heating-funnel blueprint/demo offer and conditional refund, but does not establish current price, eligibility, availability, or refund policy. UK business context and GBP currency do not by themselves establish UK-only applicability. Client counts, lead totals, and revenue examples are sales-video claims, not independently verified outcomes. Do not confuse blueprint/demo access with done-for-you implementation.",
+      "exclude_content": []
+    },
+    {
+      "source_id": "tbs-event-297-offer",
+      "source_title": "£297 TBS Event Recordings Offer - Overview and Video Script",
+      "source_type": "pdf",
+      "path": "data/source_docs/WBT_TBS_297_Offer_Overview_and_Script.pdf",
+      "origin": "WBT-provided",
+      "region": "unspecified",
+      "status": "unverified",
+      "prepared_date": null,
+      "effective_date": null,
+      "retrieved_at": null,
+      "extraction_mode": "plain",
+      "confidence_note": "WBT-provided TBS event-recordings upsell overview and sales-video transcript. It states a £297 one-time offer after a WBT system purchase and a conditional refund, but does not establish current price, availability, eligibility, or refund policy. UK attendee context and GBP currency do not establish UK-only applicability. Testimonials and performance figures are speaker claims. Do not confuse recordings access with CRM, agency services, or the full WBT system. Preserve the currency conflict with the separate content-strategy PDF's $297 claim.",
+      "exclude_content": []
+    },
+    {
+      "source_id": "wbt-seed-pdf",
+      "source_title": "We Build Trades - RAG Knowledge Base and Business Context Pack",
+      "source_type": "seed-pdf",
+      "path": "data/WBT_RAG_Knowledge_Base.pdf",
+      "origin": "WBT-provided seed",
+      "region": "mixed-or-unspecified",
+      "status": "unverified",
+      "prepared_date": "2026-10-10",
+      "effective_date": null,
+      "retrieved_at": null,
+      "confidence_note": "Compiled from prior conversation context, not independently verified. Preserve historical, synthesis, and unknown labels at passage level; preparation date does not establish current validity.",
+      "exclude_content": [
+        "Resume-related personal material in section 13, spanning pages 10 and 11. Preserve the non-personal confidence guidance."
+      ]
+    },
+    {
+      "source_id": "wbt-home",
+      "source_title": "We Build Trades | Coming Soon",
+      "source_type": "official-webpage",
+      "url": "https://webuildtrades.com/",
+      "origin": "WBT official website",
+      "region": "unspecified",
+      "status": "unverified",
+      "effective_date": null,
+      "retrieved_at": null,
+      "confidence_note": "Live homepage currently presents a coming-soon waitlist and promotional company claims. Retrieval time records observation, not approval or an effective date. It does not state current UK or US blueprint prices."
+    },
+    {
+      "source_id": "wbt-about",
+      "source_title": "We Build Trades - About",
+      "source_type": "official-webpage",
+      "url": "https://webuildtrades.com/about/",
+      "origin": "WBT official website",
+      "region": "unspecified",
+      "status": "unverified",
+      "effective_date": null,
+      "retrieved_at": null
+    },
+    {
+      "source_id": "wbt-demo",
+      "source_title": "We Build Trades - Demo",
+      "source_type": "official-webpage",
+      "url": "https://webuildtrades.com/demo/",
+      "origin": "WBT official website",
+      "region": "unspecified",
+      "status": "unverified",
+      "effective_date": null,
+      "retrieved_at": null
+    },
+    {
+      "source_id": "wbt-blueprints",
+      "source_title": "We Build Trades - Blueprints",
+      "source_type": "official-webpage",
+      "url": "https://webuildtrades.com/blueprints/",
+      "origin": "WBT official website",
+      "region": "unspecified",
+      "status": "unverified",
+      "effective_date": null,
+      "retrieved_at": null
+    },
+    {
+      "source_id": "wbt-uk-blueprints",
+      "source_title": "We Build Trades - UK Blueprints",
+      "source_type": "official-webpage",
+      "url": "https://webuildtrades.com/uk-blueprints/",
+      "origin": "WBT official website",
+      "region": "UK",
+      "status": "unverified",
+      "effective_date": null,
+      "retrieved_at": null
+    },
+    {
+      "source_id": "wbt-us-blueprints",
+      "source_title": "We Build Trades - US Blueprints",
+      "source_type": "official-webpage",
+      "url": "https://webuildtrades.com/us-blueprints/",
+      "origin": "WBT official website",
+      "region": "US",
+      "status": "unverified",
+      "effective_date": null,
+      "retrieved_at": null
+    },
+    {
+      "source_id": "wbt-north-america",
+      "source_title": "We Build Trades - North America",
+      "source_type": "official-webpage",
+      "url": "https://webuildtrades.com/north-america/",
+      "origin": "WBT official website",
+      "region": "North America",
+      "status": "unverified",
+      "effective_date": null,
+      "retrieved_at": null,
+      "confidence_note": "Initial region label comes from the link index. Preserve any narrower geographic scope in the fetched content; do not equate North America with the US."
+    }
+  ]
+}

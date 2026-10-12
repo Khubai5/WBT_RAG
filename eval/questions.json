@@ -1,0 +1,96 @@
+[
+  {
+    "id": "tbs-purpose",
+    "kind": "retrieval",
+    "question": "What is Trade Business School?",
+    "region": "all",
+    "expected_sources": ["tbs-overview"]
+  },
+  {
+    "id": "heating-offer-contents",
+    "kind": "retrieval",
+    "question": "What did the £47 heating funnel offer include?",
+    "region": "all",
+    "expected_sources": ["wbt-heating-47-offer"]
+  },
+  {
+    "id": "tbs-recordings-contents",
+    "kind": "retrieval",
+    "question": "What did the £297 TBS event recordings offer include?",
+    "region": "all",
+    "expected_sources": ["tbs-event-297-offer"]
+  },
+  {
+    "id": "heating-refund",
+    "kind": "retrieval",
+    "question": "What refund conditions did the heating funnel offer script state?",
+    "region": "all",
+    "expected_sources": ["wbt-heating-47-offer"]
+  },
+  {
+    "id": "recordings-refund",
+    "kind": "retrieval",
+    "question": "What refund conditions did the TBS event recordings script state?",
+    "region": "all",
+    "expected_sources": ["tbs-event-297-offer"]
+  },
+  {
+    "id": "content-strategy",
+    "kind": "retrieval",
+    "question": "What does the WBT content strategy say about social media?",
+    "region": "all",
+    "expected_sources": ["wbt-content-strategy"]
+  },
+  {
+    "id": "currency-conflict",
+    "kind": "retrieval",
+    "question": "Compare the £297 TBS event recordings offer with the $297 content strategy reference.",
+    "region": "all",
+    "expected_sources": ["tbs-event-297-offer", "wbt-content-strategy"]
+  },
+  {
+    "id": "live-homepage",
+    "kind": "retrieval",
+    "question": "Is We Build Trades website launching soon?",
+    "region": "all",
+    "expected_sources": ["wbt-home"]
+  },
+  {
+    "id": "uk-blueprint-source",
+    "kind": "retrieval",
+    "question": "What does the UK blueprint page say the Solar Funnel Blueprint is?",
+    "region": "UK",
+    "expected_sources": ["wbt-uk-blueprints"]
+  },
+  {
+    "id": "us-blueprint-source",
+    "kind": "retrieval",
+    "question": "What does the US blueprint page say the Electrical Funnel Blueprint is?",
+    "region": "US",
+    "expected_sources": ["wbt-us-blueprints"]
+  },
+  {
+    "id": "uk-current-price",
+    "kind": "current_price",
+    "question": "What is the current UK blueprint price?",
+    "region": "UK"
+  },
+  {
+    "id": "us-current-price",
+    "kind": "current_price",
+    "question": "What is the current US blueprint price?",
+    "region": "US"
+  },
+  {
+    "id": "region-clarification",
+    "kind": "clarify",
+    "question": "What is the blueprint offer price?",
+    "region": "all"
+  },
+  {
+    "id": "unapproved-current-price",
+    "kind": "current_price",
+    "question": "What is the current price of the heating funnel offer?",
+    "region": "unspecified"
+  }
+]

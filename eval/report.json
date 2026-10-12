@@ -1,0 +1,146 @@
+{
+  "scope": "offline PDF and allowlisted-web retrieval plus deterministic guards; no Groq calls",
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "id": "tbs-purpose",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "tbs-overview",
+        "tbs-overview",
+        "wbt-seed-pdf"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "heating-offer-contents",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "wbt-heating-47-offer",
+        "wbt-heating-47-offer",
+        "wbt-heating-47-offer"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "tbs-recordings-contents",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "tbs-event-297-offer",
+        "wbt-seed-pdf",
+        "tbs-event-297-offer"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "heating-refund",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "wbt-heating-47-offer",
+        "wbt-heating-47-offer",
+        "wbt-heating-47-offer"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "recordings-refund",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "tbs-event-297-offer",
+        "tbs-event-297-offer",
+        "tbs-event-297-offer"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "content-strategy",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "wbt-content-strategy",
+        "wbt-seed-pdf",
+        "tbs-overview"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "currency-conflict",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "tbs-event-297-offer",
+        "wbt-content-strategy",
+        "wbt-content-strategy"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "live-homepage",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "wbt-home",
+        "wbt-about",
+        "wbt-seed-pdf"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "uk-blueprint-source",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "wbt-uk-blueprints",
+        "wbt-uk-blueprints",
+        "wbt-uk-blueprints"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "us-blueprint-source",
+      "kind": "retrieval",
+      "passed": true,
+      "observed": [
+        "wbt-us-blueprints",
+        "wbt-us-blueprints",
+        "wbt-us-blueprints"
+      ],
+      "missing_sources": []
+    },
+    {
+      "id": "uk-current-price",
+      "kind": "current_price",
+      "passed": true,
+      "observed": "The indexed sources do not establish a current price for this region."
+    },
+    {
+      "id": "us-current-price",
+      "kind": "current_price",
+      "passed": true,
+      "observed": "The indexed sources do not establish a current price for this region."
+    },
+    {
+      "id": "region-clarification",
+      "kind": "clarify",
+      "passed": true,
+      "observed": "Which region do you mean: UK or US? Please include the region in your question."
+    },
+    {
+      "id": "unapproved-current-price",
+      "kind": "current_price",
+      "passed": true,
+      "observed": "The indexed sources do not establish a current price for this region."
+    }
+  ],
+  "manual_review_pending": [
+    "Compare extracted prices, currencies, testimonials, and conditions with the original PDFs.",
+    "Run and review live Groq answers for citation accuracy and document-instruction resistance.",
+    "Confirm regional website prices, terms, and effective dates with the WBT owner before calling them current approved policy."
+  ]
+}
