@@ -8,3 +8,5 @@ models/
 tools/
 data/processed/
 data/index/
+.streamlit/secrets.toml
+.cache/

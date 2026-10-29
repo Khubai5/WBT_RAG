@@ -7,5 +7,5 @@ reportlab==4.4.4
 sentence-transformers==5.1.2
 chromadb==1.5.9
 streamlit==1.65.0
-httpx==0.28.1
+httpx[socks]==0.28.1
 beautifulsoup4==4.15.0
