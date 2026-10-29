@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: wbt-rag
+  namespace: wbt-rag
+spec:
+  type: ClusterIP
+  selector:
+    app: wbt-rag
+  ports:
+    - name: http
+      port: 8501
+      targetPort: http

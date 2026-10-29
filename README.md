@@ -10,6 +10,14 @@ explains each completed stage.
 
 ## Run the prototype in PowerShell
 
+For the Docker and local Kubernetes deployment, see
+[`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md). From a machine with Docker, KIND,
+kubectl and Python installed, run `python scripts/deploy_kind.py`. It builds the
+source snapshot, prompts for the Groq key privately, deploys to a dedicated
+KIND cluster and starts localhost port forwarding. This is a local deployment;
+it does not create a public URL. See [`docs/DEPLOYMENT_LOG.md`](docs/DEPLOYMENT_LOG.md)
+for actual validation status.
+
 From `H:\WBT_RAG`, with Python and a Groq key already configured in `.env`:
 
 ```powershell
